@@ -1,0 +1,71 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2021-08-20T06:45:35.875Z'
+  'npm:hoek:20180212':
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2021-08-20T06:45:35.875Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-08-20T06:45:35.875Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-08-20T06:45:35.875Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-08-20T06:45:35.875Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-20T06:45:35.875Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-08-20T06:45:35.875Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-08-20T06:45:35.875Z'
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-20T06:45:35.875Z'
+  SNYK-JS-LODASH-567746:
+    - babel-register > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - enzyme > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - enzyme-adapter-react-15 > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - enzyme > cheerio > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - enzyme-adapter-react-15 > enzyme-adapter-utils > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-types > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-generator > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-traverse > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-template > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-register > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+    - babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-08-20T06:45:35.875Z'
+  'npm:stringstream:20180511':
+    - webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2021-08-20T06:45:35.875Z'
