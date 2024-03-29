@@ -57,7 +57,7 @@
     "file-loader": "^1.1.5",
     "glotpress-js": "0.0.6",
     "grunt-cli": "^1.2.0",
-    "gulp": "^3.9.0",
+    "gulp": "^5.0.0",
     "gulp-autoprefixer": "^3.0.2",
     "gulp-babel": "7.0.0",
     "gulp-banner": "^0.1.3",
