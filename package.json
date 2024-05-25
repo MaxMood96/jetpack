@@ -129,7 +129,7 @@
     "sinon": "^1.17.3",
     "sinon-chai": "^2.8.0",
     "sinon-qunit": "~2.0.0",
-    "webpack-dev-server": "2.9.2"
+    "webpack-dev-server": "4.0.0"
   },
   "engines": {
     "node": ">=8"
