@@ -70,7 +70,7 @@
     "gulp-if": "^2.0.2",
     "gulp-jshint": "2.0.0",
     "gulp-json-transform": "^0.4.2",
-    "gulp-live-server": "0.0.28",
+    "gulp-live-server": "0.0.31",
     "gulp-modify": "0.1.1",
     "gulp-open": "^1.0.0",
     "gulp-phplint": "^0.0.6",
